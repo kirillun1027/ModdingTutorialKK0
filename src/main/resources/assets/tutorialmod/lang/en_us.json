@@ -1,0 +1,56 @@
+{
+  "item.tutorialmod.pink_gem" : "Gem",
+  "item.tutorialmod.raw_gemstone" : "Gemstone",
+  "item.tutorialmod.chisel" : "Chisel",
+  "item.tutorialmod.fried_egg": "Fried Egg",
+  "item.tutorialmod.fried_eggs": "Fried Eggs",
+  "item.tutorialmod.biofuel_powder": "Biofuel powder",
+
+  "item.tutorialmod.pink_gem_sword": "Pink Gem Sword",
+  "item.tutorialmod.pink_gem_axe": "Pink Gem Axe",
+  "item.tutorialmod.pink_gem_pickaxe": "Pink Gem Pickaxe",
+  "item.tutorialmod.pink_gem_shovel": "Pink Gem Shovel",
+  "item.tutorialmod.pink_gem_hoe": "Pink Gem Hoe",
+
+
+  "block.tutorialmod.pink_gem_block": "Gem Block",
+  "block.tutorialmod.raw_gemstone_block": "Gemstone Block",
+  "block.tutorialmod.gemstone_ore": "Gemstone Ore",
+  "block.tutorialmod.gemstone_deepslate_ore": "Gemstone Deepslate Ore",
+  "block.tutorialmod.magic_block": "Transmuter Zero",
+
+  "block.tutorialmod.pink_gem_stairs": "Pink Gem Stairs",
+  "block.tutorialmod.pink_gem_slab": "Pink Gem Slab",
+  "block.tutorialmod.pink_gem_button": "Pink Gem Button",
+  "block.tutorialmod.pink_gem_pressure_plate": "Pink Gem Pressure Plate",
+  "block.tutorialmod.pink_gem_fence": "Pink Gem Fence",
+  "block.tutorialmod.pink_gem_fence_gate": "Pink Gem Fence Gate",
+  "block.tutorialmod.pink_gem_wall": "Pink Gem Wall",
+  "block.tutorialmod.pink_gem_door": "Pink Gem Door",
+  "block.tutorialmod.pink_gem_trapdoor": "Pink Gem Trapdoor",
+
+  "block.tutorialmod.pink_gem_lamp": "Pink Gem Lamp",
+
+  "block.tutorialmod.raw_gemstone_stairs": "Raw Gemstone Stairs",
+  "block.tutorialmod.raw_gemstone_slab": "Raw Gemstone Slab",
+  "block.tutorialmod.raw_gemstone_button": "Raw Gemstone Button",
+  "block.tutorialmod.raw_gemstone_pressure_plate": "Raw Gemstone Pressure Plate",
+  "block.tutorialmod.raw_gemstone_fence": "Raw Gemstone Fence",
+  "block.tutorialmod.raw_gemstone_fence_gate": "Raw Gemstone Fence Gate",
+  "block.tutorialmod.raw_gemstone_wall": "Raw Gemstone Wall",
+  "block.tutorialmod.raw_gemstone_door": "Raw Gemstone Door",
+  "block.tutorialmod.raw_gemstone_trapdoor": "Raw Gemstone Trapdoor",
+
+
+  "itemgroup.tutorialmod.gems" : "Gems",
+  "itemgroup.tutorialmod.gem_blocks" : "Gem blocks",
+  "itemgroup.tutorialmod.misc" : "Miscellaneous",
+
+  "tooltip.tutorialmod.magic_block.tooltip" : "Gems placed on top are §9transmuted§r into Emeralds",
+  "tooltip.tutorialmod.shift_closed.tooltip": "Press §eShift§r to see tooltips",
+  "tooltip.tutorialmod.chiselitem.shift_down.line1.tooltip": "Can be used to change blocks into their chiseled",
+  "tooltip.tutorialmod.chiselitem.shift_down.line2.tooltip": "variants by R-Clicking them with the chisel in hand",
+  "tooltip.tutorialmod.fried_eggs.tooltip": "A hearty meal on a low budget for some chicken farmers out there",
+  "tooltip.tutorialmod.reverseritem.shift_down.line1.tooltip": "Can be used to change chiseled blocks into their original",
+  "tooltip.tutorialmod.reverseritem.shift_down.line2.tooltip": "variants by R-Clicking them with the reverser in hand"
+}
