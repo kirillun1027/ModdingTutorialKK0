@@ -11,7 +11,12 @@
   "item.tutorialmod.pink_gem_pickaxe": "Pink Gem Pickaxe",
   "item.tutorialmod.pink_gem_shovel": "Pink Gem Shovel",
   "item.tutorialmod.pink_gem_hoe": "Pink Gem Hoe",
+  "item.tutorialmod.pink_gem_hammer": "Pink Gem Hammer",
 
+  "item.tutorialmod.pink_gem_helmet": "Pink Gem Helmet",
+  "item.tutorialmod.pink_gem_chestplate": "Pink Gem Chestplate",
+  "item.tutorialmod.pink_gem_leggings": "Pink Gem Leggings",
+  "item.tutorialmod.pink_gem_boots": "Pink Gem Boots",
 
   "block.tutorialmod.pink_gem_block": "Gem Block",
   "block.tutorialmod.raw_gemstone_block": "Gemstone Block",
@@ -42,7 +47,7 @@
   "block.tutorialmod.raw_gemstone_trapdoor": "Raw Gemstone Trapdoor",
 
 
-  "itemgroup.tutorialmod.gems" : "Gems",
+  "itemgroup.tutorialmod.gems" : "Gem Items",
   "itemgroup.tutorialmod.gem_blocks" : "Gem blocks",
   "itemgroup.tutorialmod.misc" : "Miscellaneous",
 

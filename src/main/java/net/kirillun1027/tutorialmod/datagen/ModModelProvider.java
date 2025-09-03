@@ -6,6 +6,7 @@ import net.kirillun1027.tutorialmod.block.ModBlocks;
 import net.kirillun1027.tutorialmod.block.custom.PinkGemLamp;
 import net.kirillun1027.tutorialmod.item.ModItems;
 import net.minecraft.data.client.*;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.util.Identifier;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -61,11 +62,19 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.FRIED_EGG, Models.GENERATED);
         itemModelGenerator.register(ModItems.FRIED_EGGS, Models.GENERATED);
         itemModelGenerator.register(ModItems.REVERSER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PINK_GEM_HORSE_ARMOR, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.PINK_GEM_SWORD,Models.HANDHELD);
         itemModelGenerator.register(ModItems.PINK_GEM_AXE,Models.HANDHELD);
         itemModelGenerator.register(ModItems.PINK_GEM_PICKAXE,Models.HANDHELD);
         itemModelGenerator.register(ModItems.PINK_GEM_SHOVEL,Models.HANDHELD);
         itemModelGenerator.register(ModItems.PINK_GEM_HOE,Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.PINK_GEM_HAMMER,Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PINK_GEM_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PINK_GEM_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PINK_GEM_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PINK_GEM_BOOTS));
     }
 }

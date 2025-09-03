@@ -3,11 +3,14 @@ package net.kirillun1027.tutorialmod.item;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.kirillun1027.tutorialmod.TutorialMod;
 import net.kirillun1027.tutorialmod.item.custom.ChiselItem;
+import net.kirillun1027.tutorialmod.item.custom.HammerItem;
+import net.kirillun1027.tutorialmod.item.custom.ModArmorItem;
 import net.kirillun1027.tutorialmod.item.custom.ReverserItem;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
@@ -20,6 +23,10 @@ public class ModItems {
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
     public static final Item REVERSER = registerItem("reverser", new ReverserItem(new Item.Settings().maxDamage(32)));
     public static final Item MORTAR_AND_PESTLE = registerItem("mortar_and_pestle", new Item(new Item.Settings().maxDamage(32)));
+    public static final Item PINK_GEM_HAMMER = registerItem("pink_gem_hammer",
+            new HammerItem(ModToolMaterials.PINK_GEM, BlockTags.PICKAXE_MINEABLE, new Item.Settings()
+                    .maxDamage(4096)
+                    .attributeModifiers(HammerItem.createAttributeModifiers(ModToolMaterials.PINK_GEM, 5, -3.5f))));
 
 
 
@@ -50,6 +57,24 @@ public class ModItems {
             new HoeItem(ModToolMaterials.PINK_GEM, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.PINK_GEM, 0, -3f))));
 
+    public static final Item PINK_GEM_HELMET = registerItem("pink_gem_helmet",
+            new ModArmorItem(ModArmorMaterials.PINK_GEM_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(20))));
+
+    public static final Item PINK_GEM_CHESTPLATE = registerItem("pink_gem_chestplate",
+            new ArmorItem(ModArmorMaterials.PINK_GEM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(20))));
+
+    public static final Item PINK_GEM_LEGGINGS = registerItem("pink_gem_leggings",
+            new ArmorItem(ModArmorMaterials.PINK_GEM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(20))));
+
+    public static final Item PINK_GEM_BOOTS = registerItem("pink_gem_boots",
+            new ArmorItem(ModArmorMaterials.PINK_GEM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(20))));
+
+    public static final Item PINK_GEM_HORSE_ARMOR = registerItem("pink_gem_horse_armor",
+            new AnimalArmorItem(ModArmorMaterials.PINK_GEM_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings().maxDamage(630)));
 
 
     private static Item registerItem(String name, Item item){

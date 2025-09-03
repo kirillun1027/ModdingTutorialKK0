@@ -5,17 +5,10 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.kirillun1027.tutorialmod.TutorialMod;
 import net.kirillun1027.tutorialmod.block.ModBlocks;
 import net.kirillun1027.tutorialmod.item.ModItems;
-import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.*;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
-import net.minecraft.item.PickaxeItem;
-import net.minecraft.recipe.CraftingRecipe;
-import net.minecraft.recipe.CuttingRecipe;
-import net.minecraft.recipe.Ingredient;
-import net.minecraft.recipe.book.CraftingRecipeCategory;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.util.Identifier;
@@ -68,6 +61,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShovelRecipe(exporter, RecipeCategory.COMBAT, ModItems.PINK_GEM_SHOVEL, ModItems.PINK_GEM, Items.STICK);
         offerHoeRecipe(exporter, RecipeCategory.COMBAT, ModItems.PINK_GEM_HOE, ModItems.PINK_GEM, Items.STICK);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.PINK_GEM_HAMMER)
+                .pattern("MMM")
+                .pattern("MSM")
+                .pattern(" S ")
+                .input('M', ModBlocks.PINK_GEM_BLOCK)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.PINK_GEM), conditionsFromItem(ModItems.PINK_GEM))
+                .offerTo(exporter, "pink_gem_hammer");
 
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CHISEL)

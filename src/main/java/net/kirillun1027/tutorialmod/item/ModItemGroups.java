@@ -21,6 +21,21 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_GEMSTONE);
 
                         entries.add(ModItems.CHISEL);
+
+                        entries.add(ModItems.PINK_GEM_HELMET);
+                        entries.add(ModItems.PINK_GEM_CHESTPLATE);
+                        entries.add(ModItems.PINK_GEM_LEGGINGS);
+                        entries.add(ModItems.PINK_GEM_BOOTS);
+
+                        entries.add(ModItems.PINK_GEM_SHOVEL);
+                        entries.add(ModItems.PINK_GEM_SWORD);
+                        entries.add(ModItems.PINK_GEM_AXE);
+                        entries.add(ModItems.PINK_GEM_PICKAXE);
+                        entries.add(ModItems.PINK_GEM_HOE);
+
+                        entries.add(ModItems.PINK_GEM_HAMMER);
+
+                        entries.add(ModItems.PINK_GEM_HORSE_ARMOR);
                     })
                     .build());
 
@@ -78,12 +93,6 @@ public class ModItemGroups {
                         entries.add(ModItems.FRIED_EGGS);
 
                         entries.add(ModItems.BIOFUEL_POWDER);
-
-                        entries.add(ModItems.PINK_GEM_SHOVEL);
-                        entries.add(ModItems.PINK_GEM_SWORD);
-                        entries.add(ModItems.PINK_GEM_AXE);
-                        entries.add(ModItems.PINK_GEM_PICKAXE);
-                        entries.add(ModItems.PINK_GEM_HOE);
 
                     })
                     .build());

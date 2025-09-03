@@ -29,6 +29,12 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.SHOVELS).add(ModItems.PINK_GEM_SHOVEL);
         getOrCreateTagBuilder(ItemTags.HOES).add(ModItems.PINK_GEM_HOE);
 
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.PINK_GEM_HELMET)
+                .add(ModItems.PINK_GEM_CHESTPLATE)
+                .add(ModItems.PINK_GEM_LEGGINGS)
+                .add(ModItems.PINK_GEM_BOOTS);
+
     }
 
 
